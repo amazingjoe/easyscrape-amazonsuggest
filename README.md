@@ -1,25 +1,25 @@
-# EasyScrape-GoogleSuggest
+# EasyScrape-AmazonSuggest
 
 Scrape Amazon Searchbar Suggested Terms
 
-<img src="https://github.com/amazingjoe/amazingjoe.github.io/blob/main/imgs/Easyscrape.png"/>
+<img src="https://github.com/amazingjoe/amazingjoe.github.io/blob/main/imgs/Easyscrape.png" width="50%"/>
 
 ## Instructions
 
 1. Install:
 
 ```
-pip install easyscrape-googlesuggest
+pip install easyscrape-amazonsuggest
 ```
 
 2. Get Google Suggestions for a Search Term:
 
 ```python
-from easyscrape_googlesuggest import getsuggestions as ES
+from easyscrape_amazomsuggest import querysuggestions as AS
 
 # Request suggestions for a search term
-ESResults = ES.query("Mony Python")
-ESResults
+ASResults = AS.query("Mony Python")
+ASResults
 
 ['monty python and the holy grail', 'monty python movies', 'monty python cast', 'monty python life of brian', 'monty python and the holy grail quotes', "monty python's flying circus", 'monty python rabbit', 'monty python quotes']
 ```
