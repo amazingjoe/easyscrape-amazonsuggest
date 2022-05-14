@@ -2,8 +2,6 @@ import requests
 import json
 from random import randint
 
-
-
 def querySuggestions(term):
 
     seq = randint(1000000,9999999)
