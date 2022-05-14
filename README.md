@@ -21,7 +21,7 @@ from easyscrape_amazomsuggest import querysuggestions as AS
 ASResults = AS.query("Mony Python")
 ASResults
 
-['monty python and the holy grail', 'monty python movies', 'monty python cast', 'monty python life of brian', 'monty python and the holy grail quotes', "monty python's flying circus", 'monty python rabbit', 'monty python quotes']
+['monty python shirt', 'monty python and the holy grail', 'monty python', 'monty python blu ray', 'monty python gifts', 'monty python and the holy grail merchandise', 'monty python flying circus complete series', 'monty python dvd', 'monty python door mat', 'monty python fluxx']
 ```
 
-3. ES_query returns a list of strings with the results. You can optionally set the requests header as the second argument if you wish to include a custom header.
+3. AS.query returns a list of strings with the results.
