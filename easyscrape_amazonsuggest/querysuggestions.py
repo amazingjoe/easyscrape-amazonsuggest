@@ -1,5 +1,4 @@
-import requests
-import json
+import requests,json
 from random import randint
 
 def query(term):
